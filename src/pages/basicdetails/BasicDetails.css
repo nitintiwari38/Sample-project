@@ -1,0 +1,148 @@
+.card {
+    border: 2px solid #0FB9B9;
+    background: white;
+    z-index: 1;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 6% 6% 10%;
+}
+
+/* .topheading {
+    border: 2px solid #0FB9B9;
+    display: inline-block;
+    border-bottom: none;
+    margin-bottom: -3px;
+    padding: 24px 50px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border-top-left-radius: 25px;
+    color: #0fb9b9;
+    background: white;
+    border-top-right-radius: 25px;
+} */
+
+.topheading_basic {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #0FB9B9;
+}
+
+.basicDetailComponent {
+    padding: 15% 5% 5%;
+}
+
+.Basiccontainer form {
+    padding: 1% 0% 0% 5%;
+}
+
+.MuiOutlinedInput-inputMarginDense {
+    padding-top: 8.5px !important;
+    padding-bottom: 8.5px !important;
+}
+
+.basic_divider {
+    margin: 0.5% 0 3% !important;
+}
+
+.MuiFormControl-fullWidth {
+    width: 98% !important;
+}
+
+
+.lable {
+    color: #0FB9B9;
+    font-size: 0.9rem;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+}
+
+.input_parent {
+    margin: 0% 0% 1.2rem;
+}
+
+.d_flex {
+    display: block;
+}
+
+.seletWidht {
+    width: 200px;
+}
+
+.technology_div,.datetime_div {
+    width: 100%;
+}
+
+.role_div {
+    width: 100%;
+}
+
+.datetime_div .MuiOutlinedInput-input {
+    padding: 10px 14px !important;
+}
+
+.btn_div button{
+    background-color: #0FB9B9 !important;
+    border-radius: 15px !important;
+    width: 180px !important ;
+    float: right;
+    padding: 12px 0px;
+}
+
+.btn_div {
+    display: flow-root;
+    margin-top: 40px;
+    width: 85%;
+}
+
+.error {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+.user_container .Basiccontainer .css-vamk89-MuiFormControl-root {
+    width: 98% ;
+    margin: 4px 0px 0px;
+}
+.Basiccontainer .css-vamk89-MuiFormControl-root {
+    width: 98% ;
+    margin: 4px 0px 0px;
+}
+
+/*--------------------------------- TAB CSS HERE -------------------------- */
+
+@media only screen and (min-width: 750px) and (orientation: portrait) ,only screen and (min-width: 1024px) and (orientation: landscape) {
+    .d_flex{
+        display: flex;
+    }
+
+    .Basiccontainer .css-vamk89-MuiFormControl-root {
+        width: 300px ;
+        margin: 4px 0px 0px;
+    }
+
+    .technology_div, .datetime_div {
+        width: 47%;
+    }
+
+    .role_div {
+        width: 45%;
+    }
+
+    .MuiFormControl-fullWidth {
+        width: 85% !important;
+    }
+
+    .basicDetailComponent {
+        padding: 5%;
+    }
+
+}
+
+/*---------------------------------DESKTOP CSS HERE------------------------ */
+
+@media only screen and (min-width: 1025px) { 
+    
+}

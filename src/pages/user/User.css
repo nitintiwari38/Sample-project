@@ -1,0 +1,167 @@
+.content_div {
+    background: #ffffff;
+}
+
+.questionFormDiv {
+    width: 80%;
+    margin: auto;
+}
+
+.bottombtngroup {
+    display: flow-root;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.back_btn {
+    float: left;
+}
+
+.front_btn {
+    float: right;
+}
+
+.questionForm,.comment_form {
+    padding: 30px 5px;
+}
+
+.questionForm .MuiFormControl-root ,.comment_div .MuiFormControl-root{
+    width: 100%;
+}
+
+.questionForm .input_lable{
+    margin: 20px 0px ;
+}
+
+.comment_form .input_lable {
+    margin: 20px 0px;
+}
+
+.comment_form .input_lable .lable {
+    margin-bottom: 10px;
+}
+
+.css-iljtu2-MuiRating-root {
+    color : #0FB9B9 !important
+}
+
+.btn_div_question {
+    display: flow-root;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn_div_question button {
+    background-color: #0FB9B9 !important;
+    border-radius: 15px !important;
+    width: 180px !important;
+    float: right;
+    color: #ffffff !important;
+    padding: 12px 0px;
+}
+
+.user_container {
+    background: white;
+}
+
+.questionTablesDiv {
+    margin: 5% auto;
+    width: 100%;
+}
+
+.no_elemnt {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #0FB9B9;
+    font-family: 'ROBOTO';
+}
+
+.questionTablesDiv .MuiSvgIcon-root {
+    color: #0FB9B9 !important; 
+}
+
+.answer {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+svg[data-testid="DeleteIcon"] {
+    cursor: pointer !important;
+}
+
+.circle {
+    display: block;
+    height: 37px;
+    width: 37px;
+    line-height: 37px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #0FB9B9;
+    border: 1px solid #0FB9B9;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    margin: 3px;
+}
+
+.circle:hover {
+    color: white;
+    background-color: #0FB9B9;
+    cursor: pointer;
+}
+
+.user_basicForm {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.thankyou {
+    color: #0FB9B9;
+    font-family: 'Roboto';
+    font-size: 1.3rem !important;
+    padding: 10%;
+}
+
+.rating_number_active {
+    background-color: #0FB9B9 !important;
+    color: #ffffff !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root ,.css-1ex1afd-MuiTableCell-root{
+    padding: 6px !important;
+}
+
+.MuiStepIcon-text {
+    fill: #ffffff !important;
+}
+
+/*--------------------------------- TAB CSS HERE -------------------------- */
+
+@media only screen and (min-width: 750px) and (orientation: portrait) ,only screen and (min-width: 1024px) and (orientation: landscape) {
+    .questionTablesDiv {
+        width: 80%;
+    }
+
+    .user_basicForm .filter_width {
+        width: 93%;
+    }
+
+    .user_basicForm .datetime_div {
+        width: 44%;
+    }
+
+    .css-1ygcj2i-MuiTableCell-root,.css-1ex1afd-MuiTableCell-root {
+        padding: 16px !important;
+    }
+    
+}
+
+/*---------------------------------DESKTOP CSS HERE------------------------ */
+
+@media only screen and (min-width: 1025px) { 
+    
+}

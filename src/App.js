@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import  {Route , Routes} from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
-function App() {
+import BasicDetails from './pages/basicdetails/BasicDetails';
+import User from './pages/user/User';
+import PageNotFound from './pages/pagenotfound/PageNotFound';
+import Header from './components/header/Header';
+import Filter from './pages/filter/Filter';
+import Navbar from './components/Navbar/Navbar';
+import ProtectedRoute from './protectedRoute/ProtectedRoute';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ToastContainer />
+      <Navbar></Navbar>
+      <div className='container'>
+        <Routes>
+          <Route exact path='/' element={<BasicDetails />}/>
+          <Route path='/user' element={<User />}> USer </Route>
+          <Route path="/basicdetails" element={<ProtectedRoute> <BasicDetails /></ProtectedRoute>}/>
+          <Route  path='/filter' element={<Filter />} />
+          <Route path= '*' element={<PageNotFound />}/>
+        </Routes>
+      </div>
+    </>
   );
 }
 

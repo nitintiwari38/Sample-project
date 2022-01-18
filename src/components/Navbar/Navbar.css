@@ -1,0 +1,143 @@
+.NavbarItems {
+    background-color: #6f42c1;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.header_text {
+    float: right !important;
+    line-height: 2.5 !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    color: white;
+    text-align: center;
+    width: -webkit-fill-available;
+    font-family: 'Roboto';
+}
+
+.navbar-logo {
+    color: #ffffff;
+    justify-self: start;
+    margin-left: 5%;
+    width: 95%;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30%;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-Links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.nav-Links:hover {
+    color: #ff6984;
+    transition: all 0.2s ease-out;
+}
+
+.icon_color {
+    color: white;
+}
+
+.menu-icon {
+    display: block;
+}
+
+
+
+/*--------------------------------- TAB CSS HERE -------------------------- */
+
+@media only screen and (max-width: 960px)  {
+    .menu-icon {
+        display: none;
+    }
+
+    .NavbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180px;
+        position: absolute;
+        top: 40px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .header_text { 
+        font-size: 1rem !important;
+    }
+
+    .nav-menu.active {
+        background-color: #6f42c1;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5 ease;
+        z-index: 1;
+    }
+
+    .nav-Links {
+        text-align: left;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: green;
+        border-radius: 0;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 35%;
+        transform: translate(0% ,80%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100% ,45%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+
+    
+}
+
+/*---------------------------------DESKTOP CSS HERE------------------------ */
+
+@media only screen and (min-width: 1025px) { 
+    .menu-icon {
+        display: none;
+    }
+    
+}

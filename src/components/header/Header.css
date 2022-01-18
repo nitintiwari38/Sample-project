@@ -1,0 +1,83 @@
+/* .logo {
+    width: 10%;
+}
+
+.bg_header {
+    background: #6f42c1 !important;
+}
+
+.header_text {
+    float: right !important;
+    line-height: 2.5 !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    color: white;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.navbar {
+    display: flow-root;
+    border-width: 0px 0px 2px;
+    border-style: none;
+    width: 30%;
+    border-color: #048b8b96;
+}
+
+.nav {
+    float: right;
+    padding-right: 0.5%;
+}
+
+.anchor {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin: 0px 10px;
+    font-family: 'Roboto';
+}
+
+.anchor:hover {
+    color: #048B8B;
+}
+
+.nav .active {
+    color: #ff6984;
+    color: #048B8B;
+}
+
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root {
+    color: #048B8B !important;
+    background:  #ffffff !important;
+}
+
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    background: #048B8B !important;
+    color:  #ffffff !important;
+}
+
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected .anchor {
+    color: #ffffff !important
+}
+
+
+.css-1gjgmky-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+    margin: 0px 0.4rem !important;
+}
+
+
+/*--------------------------------- TAB CSS HERE -------------------------- */
+
+@media only screen and (min-width: 750px) and (orientation: portrait) ,only screen and (min-width: 1024px) and (orientation: landscape) {
+    .header_text {
+        font-size: 1.6rem !important;
+    }
+}
+
+/*---------------------------------DESKTOP CSS HERE------------------------ */
+
+@media only screen and (min-width: 1025px) { 
+    .header_text {
+        font-size: 1.6rem !important;
+    }
+} 
