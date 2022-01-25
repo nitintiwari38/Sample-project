@@ -10,7 +10,7 @@ const BasicDetails = () => {
 
     const dispatch = useDispatch()
     useEffect(() => {
-        localStorage.setItem('isAuthenticated',false);
+        localStorage.setItem('isAuthenticated','true');
     })
 
     return (

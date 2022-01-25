@@ -8,7 +8,7 @@ const Filter = () => {
 
     useEffect(() => {
         const isAuthenticated = localStorage.getItem('isAuthenticated');
-        if(isAuthenticated  && isAuthenticated === false) {
+        if(isAuthenticated  && isAuthenticated === 'false') {
             const basicNav = document.getElementById('basicdetails');
             basicNav.classList.add('hide');
         }

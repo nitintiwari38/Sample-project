@@ -52,7 +52,7 @@ const User = () => {
 
 
     useEffect(() => {
-        localStorage.setItem('isAuthenticated',false);
+        localStorage.setItem('isAuthenticated','false');
         const basicNav = document.getElementById('basicdetails');
         basicNav.classList.add('hide');
     }, [])
